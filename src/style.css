@@ -1,0 +1,17 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:#f7f8fa; color:#111; }
+.app { max-width:980px; margin:24px auto; padding:20px; }
+.nav { background:#fff; padding:10px 20px; border-radius:8px; box-shadow:0 1px 4px rgba(0,0,0,.06); margin-bottom:16px; }
+.nav-inner a { margin-right:14px; text-decoration:none; color:#0366d6; }
+.container { background:#fff; padding:18px; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,.05); }
+h1,h2 { margin-top:0; }
+form { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+input[type="url"], input[type="datetime-local"] { padding:8px 10px; border-radius:6px; border:1px solid #ddd; min-width:240px; }
+button { padding:8px 12px; border-radius:6px; border:0; background:#0366d6; color:white; cursor:pointer; }
+.url-list { list-style:none; padding:0; margin:0; }
+.url-list li { border-top:1px solid #eee; padding:12px 0; display:flex; justify-content:space-between; }
+.meta { color:#666; font-size:12px; }
+.clicks { margin-top:8px; }
+table { width:100%; border-collapse:collapse; }
+th,td { text-align:left; padding:6px 8px; border-bottom:1px solid #eee; }
+small { color:#666; }
+.created { margin-top:12px; padding:10px; background:#f3f9ff; border-radius:6px; }
