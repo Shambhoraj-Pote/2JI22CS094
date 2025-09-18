@@ -1,4 +1,4 @@
-// src/components/ShortUrlList.js
+
 import React, { useEffect, useState } from 'react';
 import { loadUrls, deleteUrl } from '../utils/storage';
 
@@ -10,7 +10,7 @@ export default function ShortUrlList() {
     refresh();
 
     const onStorage = (e) => {
-      // keep in sync across tabs/windows - refresh only when our key changed (or when event missing)
+     
       if (!e || e.key === 'url_shortener_v1') refresh();
     };
 
